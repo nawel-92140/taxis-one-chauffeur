@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "TAXIS ONE Chauffeur",
+    "slug": "taxis-one-chauffeur",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "taxionechauffeur",
+    "android": {
+      "package": "dz.taxione.chauffeur"
+    },
+    "ios": {
+      "bundleIdentifier": "dz.taxione.chauffeur",
+      "supportsTablet": false
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#8B5CF6",
+          "defaultChannel": "courses"
+        }
+      ]
+    ]
+  }
+}
