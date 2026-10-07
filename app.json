@@ -7,11 +7,18 @@
     "userInterfaceStyle": "dark",
     "scheme": "taxionechauffeur",
     "android": {
-      "package": "dz.taxione.chauffeur"
+      "package": "dz.taxione.chauffeur",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
     },
     "ios": {
       "bundleIdentifier": "dz.taxione.chauffeur",
-      "supportsTablet": false
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "TAXIS ONE utilise votre position pendant votre service afin que la centrale puisse suivre votre véhicule."
+      }
     },
     "plugins": [
       [
@@ -19,6 +26,12 @@
         {
           "color": "#8B5CF6",
           "defaultChannel": "courses"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Autoriser TAXIS ONE à utiliser votre position pendant votre service."
         }
       ]
     ],
