@@ -21,6 +21,12 @@
           "defaultChannel": "courses"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e67c24bc-2abb-49b1-87eb-c2537f583ca2"
+      }
+    },
+    "owner": "taxi-one"
   }
 }
